@@ -1,0 +1,19 @@
+.butn {
+  display: block;
+  margin: 0 auto;
+  width: 159px;
+  height: 47px;
+  padding: 14px 19px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  background-color: $btn-color;
+  text-decoration: none;
+  &:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}

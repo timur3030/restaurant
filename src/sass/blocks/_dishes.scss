@@ -1,0 +1,38 @@
+.dishes {
+  padding: 132px 0 150px 0;
+  &__title {
+    font-size: 54px;
+    line-height: 62px;
+    span {
+      color: $main-color;
+    }
+  }
+  &__wrapper {
+    margin-top: 139px;
+    display: grid;
+    grid-template-columns: minmax(auto, 445px) minmax(auto, 654px);
+    grid-template-rows: minmax(auto, 474px);
+    justify-content: center;
+    gap: 30px;
+  }
+  &__list {
+    display: grid;
+    grid-template-rows: repeat(3, minmax(auto, 140px));
+    align-content: space-between;
+    &-item {
+      display: grid;
+      grid-template-columns: minmax(auto, 160px) minmax(auto, 464px);
+      justify-content: space-between;
+    }
+    &-text {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-devider {
+      width: 204px;
+      height: 1px;
+      border-top: 1px dashed #000000;
+    }
+  }
+}
