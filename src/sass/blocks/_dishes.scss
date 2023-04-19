@@ -23,6 +23,9 @@
       display: grid;
       grid-template-columns: minmax(auto, 160px) minmax(auto, 464px);
       justify-content: space-between;
+      img {
+        width: 100%;
+      }
     }
     &-text {
       display: flex;

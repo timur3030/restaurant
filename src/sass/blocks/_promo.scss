@@ -1,5 +1,6 @@
 .promo {
-  background: url("../img/promo.jpg") 0 0 / contain no-repeat;
+  background: url("../img/promo.jpg") center 0 / auto 800px no-repeat;
+  // background: url("../img/promo.jpg") 0 0 / contain no-repeat;
   min-height: 1021px;
   &__wrapper {
     margin-top: 203px;
@@ -60,7 +61,7 @@
     position: absolute;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: minmax(auto, 328px);
+    grid-template-rows: auto;
     gap: 31px;
     bottom: 0;
     &-item {

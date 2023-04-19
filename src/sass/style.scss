@@ -1,10 +1,8 @@
 @import "libs/bootstrap-reboot.min";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Tinos&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Tinos&display=swap");
 
 @import "base/variables";
-// @import "base/mixins";
 
-@import "blocks/media";
 @import "blocks/titles";
 @import "blocks/btn";
 @import "blocks/header";
@@ -17,6 +15,7 @@
 @import "blocks/food-gallery";
 @import "blocks/cooks";
 @import "blocks/reservation";
+@import "blocks/media";
 
 * {
   // font-family: "Open Sans", sans-serif;
