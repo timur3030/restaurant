@@ -14,33 +14,42 @@
     />
   </head>
   <body>
-    <section class="promo">
+    <section class="promo" id="main">
       <div class="container">
-        <header class="header">
-          <div class="header__logo"></div>
-          <nav class="header__nav">
-            <ul>
-              <li><a href="#">ГЛАВНАЯ</a></li>
-              <li><a href="#">МЕНЮ</a></li>
-              <li><a href="#">О НАС</a></li>
-              <li><a href="#">БРОНЬ</a></li>
-              <li><a href="#"><img src="icons/cart.png" alt="" /></a></li>
-              <li><div class="devider"></div></li>
-              <li class="contacts">
-                <div class="contacts__tel">
-                  <div class="contacts__img">
-                  <img src="icons/phone.png" alt="" />
-                </div>
-                <a href="tel:+9998887654">+999-888-76-54</a>
-                </div>
-                <div class="contacts__text">
-                  Свяжитесь с нами для бронирования
-                </div>
-              </li>
-              <li><a href="#" class="butn">ЗАКАЗ СТОЛИКА</a></li>
-            </ul>
-          </nav>
-        </header>
+        <div class="header-fixed-block">
+          <div class="header-fixed-block-container">
+            <header class="header">
+              <div class="header__logo"></div>
+              <nav class="header__nav">
+                <ul class="header__menu">
+                  <li class="header__menu-item"><a href="#main">ГЛАВНАЯ</a></li>
+                  <li class="header__menu-item"><a href="#menu">МЕНЮ</a></li>
+                  <li class="header__menu-item"><a href="#story">О НАС</a></li>
+                  <li class="header__menu-item"><a href="#">БРОНЬ</a></li>
+                  <li class="cart">
+                    <a href="#"><img src="icons/cart.png" alt="" /></a>
+                  </li>
+                  <li><div class="devider"></div></li>
+                  <li class="contacts">
+                    <div class="contacts__tel">
+                      <div class="contacts__img">
+                        <img src="icons/phone.png" alt="" />
+                      </div>
+                      <a href="tel:+9998887654">+999-888-76-54</a>
+                    </div>
+                    <div class="contacts__text">
+                      Свяжитесь с нами для бронирования
+                    </div>
+                  </li>
+                  <li><a href="#" class="butn">ЗАКАЗ СТОЛИКА</a></li>
+                </ul>
+              </nav>
+              <div class="hamburger">
+                <span></span><span></span><span></span>
+              </div>
+            </header>
+          </div>
+        </div>
 
         <div class="promo__wrapper">
           <h2 class="promo__subtitle title title_main-color">
@@ -87,7 +96,7 @@
       </div>
     </section>
 
-    <section class="story">
+    <section class="story" id="story">
       <div class="container">
         <div class="story__wrapper">
           <h2 class="title">
@@ -183,7 +192,7 @@
       </div>
     </section>
 
-    <section class="menu">
+    <section class="menu" id="menu">
       <div class="container">
         <h2 class="menu__title title title_white">Наше меню</h2>
         <div class="menu__wrapper">
@@ -256,7 +265,9 @@
                 ресторан своим друзьям и родственникам также за рубежом,
                 путешествующих в Санкт-Петербург!!!
               </p>
-              <div class="reviews__img"><img src="img/guest.png" alt="" /></div>
+              <div class="reviews__img">
+                <img src="img/guest.png" alt="" />
+              </div>
               <div class="reviews__guest">Посетитель</div>
               <div class="reviews__name">Николай</div>
             </div>
@@ -268,7 +279,9 @@
                 ресторан своим друзьям и родственникам также за рубежом,
                 путешествующих в Санкт-Петербург!!!
               </p>
-              <div class="reviews__img"><img src="img/guest.png" alt="" /></div>
+              <div class="reviews__img">
+                <img src="img/guest.png" alt="" />
+              </div>
               <div class="reviews__guest">Посетитель</div>
               <div class="reviews__name">Николай</div>
             </div>
@@ -280,7 +293,9 @@
                 ресторан своим друзьям и родственникам также за рубежом,
                 путешествующих в Санкт-Петербург!!!
               </p>
-              <div class="reviews__img"><img src="img/guest.png" alt="" /></div>
+              <div class="reviews__img">
+                <img src="img/guest.png" alt="" />
+              </div>
               <div class="reviews__guest">Посетитель</div>
               <div class="reviews__name">Николай</div>
             </div>
@@ -349,6 +364,8 @@
     </section>
 
     <section class="reservation"></section>
+
+    <script src="js/script.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

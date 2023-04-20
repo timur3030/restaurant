@@ -65,4 +65,19 @@
       color: #ffffff;
     }
   }
+  .hamburger {
+    position: relative;
+    z-index: 20;
+    display: none;
+    cursor: pointer;
+    span {
+      display: block;
+      position: relative;
+      width: 30.88px;
+      height: 3.25px;
+      background: $btn-color;
+      border-radius: 50px;
+      margin-bottom: 5px;
+    }
+  }
 }
